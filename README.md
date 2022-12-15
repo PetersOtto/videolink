@@ -15,7 +15,7 @@ Extension for Datenstrom Yellow. It sets a link that looks like an embedded vide
 
 How to use:
 
-    [videolink image link-to-video "alt text" class-for-width class for position]
+    [videolink image link-to-video "alt text" class-for-width class-for-position]
     [videolink andi.png https://www.youtube.com/watch?v=HF0YPZTtQbU "Funktionspunk Andi Feldmann" vl-50 vl-center]
 
 Classes for width:
