@@ -1,7 +1,7 @@
 # yellow-videolink
 Extension for Datenstrom Yellow that sets a link, that looks like an embedded video.
 
-<p align="center"><img src="videolink-andi.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="videolink-andi.jpg?raw=true" alt="Bildschirmfoto"></p>
 
 ## How to use the videolink extension
 
