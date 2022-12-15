@@ -5,7 +5,8 @@ Extension for Datenstrom Yellow that sets a link, that looks like an embedded vi
 
 ## How to use the videolink extension
 
-* It is best to upload an image to your website, with the image extension.
+* Create a screenshot of your video.
+* Upload the screenshot to your website by using the image extension.
 * Replace the extension name from image to videolink.
 * Add the video link, the alt text (wrap multiple words into quotes) and if necessary the classes for size and position.
 
