@@ -1,0 +1,65 @@
+/* 
+Videolink extension, https://github.com/PetersOtto/yellow-videolink
+ */
+
+.vl-wrapper{
+  display: flex;
+}
+ .vl-video {
+  position: relative;
+}
+.vl-image {
+  height: 100%;
+  background-color: #625e4f;
+  border-radius: 1rem;
+  
+}
+.vl-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  display: block;
+  mix-blend-mode: overlay;
+}
+.vl-overlay-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.vl-overlay-image:hover {
+  opacity: 0.7;
+}
+.vl-overlay-image img {
+  width: 100%;
+  padding: 15%;
+  justify-self: center;
+}
+.vl-overlay-image a {
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  display: flex;
+}
+.vl-25{
+  width: 25%;
+}
+.vl-50{
+  width: 50%;
+}
+.vl-75{
+  width: 75%;
+}
+.vl-100{
+  width: 75%;
+}
+.vl-start{
+  justify-content: start;
+}
+.vl-center{
+  justify-content: center;
+}
+.vl-end{
+  justify-content: end;
+}
