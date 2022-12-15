@@ -14,7 +14,7 @@ Extension for Datenstrom Yellow that sets a link, that looks like an embedded vi
 
 How to use:
 
-    [videolink image link-to-video "alt test" class-for-width class for position]
+    [videolink image link-to-video "alt text" class-for-width class for position]
     [videolink andi.png https://www.youtube.com/watch?v=HF0YPZTtQbU "Funktionspunk Andi Feldmann" vl-50 vl-center]
 
 Classes for width:
