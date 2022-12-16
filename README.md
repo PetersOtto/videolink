@@ -7,7 +7,8 @@ Extension for Datenstrom Yellow. It sets a link that looks like an embedded vide
 
 * Create a screenshot of your video.
 * Upload the screenshot to your website by using the image extension.
-* Replace the extensions name from image to videolink.
+* The image extension is required (https://github.com/annaesvensson/yellow-image)
+* Replace the extensions name from `image` to `videolink`.
 * Add the video link, the alt text (wrap multiple words into quotes) and if necessary the classes for size and position.
 
 
