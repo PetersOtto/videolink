@@ -19,11 +19,26 @@ class YellowVideolink {
             $width = "100%";
             $width = str_replace("%", "", $width);
             $height = $width;
+            $widthFactor = 1;
+            $widthFactorPicture = 1;
             $path = $this->yellow->lookup->findMediaDirectory("coreImageLocation");
             if ($this->yellow->extension->isExisting("picture")) {
-                $width = ($width / 2) . "%";
-                $height = ($height / 2) . "%";
+                $widthFactorPicture = 0.5;
             }
+            if ($styleSize == "vl-25") {
+                $widthFactor = ("0.25" * $widthFactorPicture);
+            }
+            if ($styleSize == "vl-50") {
+                $widthFactor = ("0.5" * $widthFactorPicture);
+            }
+            if ($styleSize == "vl-75") {
+                $widthFactor = ("0.75" * $widthFactorPicture);
+            }
+            if ($styleSize == "vl-100" || $styleSize == "") {
+                $widthFactor = ("1" * $widthFactorPicture);
+            }
+            $width = ($width * $widthFactor) . "%";
+            $height = ($height * $widthFactor) . "%";
             list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($path.$name, $width, $height);
             $baseURL = $this->yellow->system->get("coreServerBase");
             $output = "<div class=\"vl-wrapper\"";
